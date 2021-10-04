@@ -1,9 +1,9 @@
-@
+@url = http://localhost:5000
 
-GET http://localhost:5000/videos
+GET {{url}}/videos
 ###
-GET http://localhost:5000/videos/1
+GET {{url}}/videos/1
 ###
-POST http://localhost:5000/videos
+POST {{url}}/videos
 ###
-PUT http://localhost:5000/videos/1
+PUT {{url}}/videos/1
