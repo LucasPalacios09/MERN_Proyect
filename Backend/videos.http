@@ -2,8 +2,22 @@
 
 GET {{url}}/videos
 ###
-GET {{url}}/videos/1
+GET {{url}}/videos/615a602b843e3e52096a9437
 ###
 POST {{url}}/videos
+Content-Type: application/json
+
+{
+    "url": "https://www.youtube.com/watch?v=eW2qlKa6oHw&ab_channel=LennyKravitzVEVO",
+    "title": "Lenny Kravitz - Again",
+    "description": "Derechos reservados"
+}
 ###
-PUT {{url}}/videos/1
+PUT {{url}}/videos/615a69b4bb605820771a6bf7
+Content-Type: application/json
+
+{
+    "description": "Video con derechos reservados"
+}
+###
+DELETE {{url}}/videos/615a6110e8d5c504bc874354
